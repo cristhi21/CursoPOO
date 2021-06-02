@@ -2,16 +2,16 @@ package Java;
 
 public class Car {
     Integer id;
-    String licence;
+    String license;
     Account driver;//Objeto de tipo driver
     Integer passenger;
 
-    public Car(String licence, Account driver){
-        this.licence = licence;
+    public Car(String license, Account driver){
+        this.license = license;
         this.driver = driver;
     }
     
     void printDataCar(){
-        System.out.println("Licence: " + licence + " | Driver name: " + driver.name + " | Passenger: " + passenger);
+        System.out.println("license: " + license + " | Driver name: " + driver.name + " | Passenger: " + passenger);
     }
 }
