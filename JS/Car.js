@@ -21,7 +21,7 @@ class Car {
 
     printDataCar() {
         console.log(this.driver);
-        console.log(this.driver.name);
-        console.log(this.driver.document);
+        // console.log(this.driver.name);
+        // console.log(this.driver.document);
     }
 }
