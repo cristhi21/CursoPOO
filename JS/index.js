@@ -5,3 +5,6 @@ car.printDataCar();
 let uberX = new UberX("EGH-41D", new Account("Antonio Vivaldi", "9991231"), "Ford", "Ford Mustang");
 uberX.passenger = 4;
 uberX.printDataCar();
+
+let paypal = new Paypal(2, 'cvargas@gmail.com');
+paypal.printDataPaypal();

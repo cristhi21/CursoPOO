@@ -1,6 +1,7 @@
 from car import Car
 from account import Account
 from uberBlack import UberBlack
+from paypal import Paypal
 
 if __name__ == "__main__":
     # print("Hola mundo")
@@ -14,4 +15,6 @@ if __name__ == "__main__":
     # car2.licence = 55
     # car2.driver = "Zonia Vargas"
     # print(vars(car2))
-    
+
+    paypal = Paypal(22, 'cvargas@gmail.com')
+    print(vars(paypal))
