@@ -4,7 +4,7 @@ public class Car {
     private Integer id;
     private String license;
     private Account driver;//Objeto de tipo driver
-    private Integer passenger;
+    protected Integer passenger;
 
     public Car(String license, Account driver){
         this.license = license;
